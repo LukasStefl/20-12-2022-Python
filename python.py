@@ -8,6 +8,8 @@ for y in passwords:
         f.write(x)
         f.write(passwords[i])
         f.write('diablo')
+        f.write(x)
+        f.write(passwords[i])
         f.write('\n')
     i = i + 1
 f.close()
