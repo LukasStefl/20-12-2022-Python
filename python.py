@@ -5,11 +5,9 @@ i = 0;
 f = open("chars.txt", "w")
 for y in passwords:
     for x in passwords:
-        f.write(passwords[i])
         f.write(x)
         f.write(passwords[i])
         f.write('diablo')
-        f.write(passwords[i])
         f.write(x)
         f.write(passwords[i])
         f.write('\n')
