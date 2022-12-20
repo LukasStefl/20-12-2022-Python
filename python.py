@@ -4,5 +4,7 @@ passwords = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n
 
 f = open("chars.txt", "w")
 for x in passwords:
-    f.write(x + '\n')
+    f.write(x)
+    f.write(x)
+    f.write('\n')
 f.close()
