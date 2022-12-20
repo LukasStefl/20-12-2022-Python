@@ -20,6 +20,7 @@ for y in passwords:
         f.write(x)
         f.write('\n')
     i = i + 1
+
 f.close()
 
 #os.remove("chars.txt")
