@@ -9,19 +9,12 @@ for y in passwords:
         f.write(x)
         f.write('diablo')
         f.write('\n')
-    i = i + 1
 
-for y in passwords:
-    for x in passwords:
-        
         f.write('diablo')
         f.write(passwords[i])
         f.write(x)
         f.write('\n')
-    i = i + 1
 
-for y in passwords:
-    for x in passwords:
         f.write(passwords[i])
         f.write('diablo')
         f.write(x)
