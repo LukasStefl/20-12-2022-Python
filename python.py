@@ -8,3 +8,5 @@ for x in passwords:
     f.write(x)
     f.write('\n')
 f.close()
+
+os.remove("demofile.txt")
