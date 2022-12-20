@@ -12,4 +12,4 @@ for y in passwords:
 
 f.close()
 
-os.remove("chars.txt")
+#os.remove("chars.txt")
